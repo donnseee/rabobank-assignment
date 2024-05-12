@@ -21,3 +21,8 @@ This project repo contains the automated test solution for automationpractice we
 
 ### How to view report 
 - run npx playwright show-report
+- report during CI is published as an artifact
+
+
+### CI/CD
+- At the moment, CI only runs during push on main branch. This can be updated when needed.
