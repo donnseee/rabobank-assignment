@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project repo contains the automated test solution for automationpractice website(http://www.automationpractice.pl/index.php). The project is using playwright-bdd as base framework and typscript as scripting language for steps implementation.
+This project repo contains the automated test solution for automationpractice website(http://www.automationpractice.pl/index.php). The project is using playwright-bdd as base framework and typescript for steps implementation.
 
 
 ### How to install dependencies
