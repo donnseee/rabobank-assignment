@@ -14,7 +14,7 @@ import { defineBddConfig } from "playwright-bdd";
 const testDir = defineBddConfig({
   paths: ["e2e/features/*.feature"],
   require: ["e2e/steps/*.ts"],
-  importTestFrom: "e2e/steps/fixtures.ts",
+  importTestFrom: "e2e/steps/fixtures/index.ts",
 });
 
 export default defineConfig({
