@@ -40,6 +40,6 @@ export class CategoryPage {
       .filter({ hasText: name })
       .getByRole("link", { name: "Add to Compare" })
       .first()
-      .click({ force: true });
+      .click();
   }
 }
